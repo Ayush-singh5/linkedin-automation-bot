@@ -34,7 +34,7 @@ time.sleep(5)
 #Step 2 : Search for the profile
 
 search_field = driver.find_element('xpath', '//*[@id="global-nav-typeahead"]/input')
-search_query = "Java "   #seach query like "Software Engineer"
+search_query = "Java "   #seach query 
 search_field.send_keys(search_query)
 sleep(3)
 search_field.send_keys(Keys.RETURN)  #presses  enter

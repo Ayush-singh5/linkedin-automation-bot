@@ -13,6 +13,7 @@ And make sure you update it time to time , if you get any errors or exceptions r
 
 
 """"""""linkedin cookie""""""""
+
 Now in the code provided uses cookies to automate login, so that you don't have to login again and again and linkedin don't put an "suspicious activity detected on you".
 the same code I have stored in the file "linkedin_cookie_gen.py". we have to make a file that should contain the information of you cookie you can get it through :- login to you linkedin > inspect > Application > Cookie > www.linkedin.com. and copy the attriutes of Name , Values , Domain .
 make sure you store this information on the excel with "linkedin_cookie.csv" extension and those file should the columns name same as in the cookie that is Name , Values , Domain.
